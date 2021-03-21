@@ -3,7 +3,7 @@
 ## Purpose of The Project: 
 Build a Dynamic Web Page using HTML, CSS, Javascript and Bootcstrap components for storing the UFO sighting across different countries. Help users to interact with the Wegpage by search on either Date, City, State, Country and Shape of the UFO's sighted
 
-### Results
+### Results and How to use the Webpage:
 The webpage consists three parts,
 #### Overview of UFO
 Describes the UFO sighting infomation at a high level. This is static information which wont change much until someone changes the content in the HTML.
