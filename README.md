@@ -14,7 +14,7 @@ The webpage consists three parts,
   Filter Criteria section helps the users to interact with the page and get the information they are related interested. In the below example we are entering "ca" canada country     in the input text next to the "Enter a Country" , the table on the right of the Filter Section will display only the sightings that happened in Canada. <br>
 ![WebPage-HeaderPart](/resources/webpage-filtering.png) <br/>
   Similarly if we want to search for the sightings happened in fl state, you can type "fl" in the input text, next to the "Enter a State" , the table gets updated with the           sightings that happened in Florida State.
-![WebPage-HeaderPart](/resources/webpage-filtering-state-fl.png) <br/>
+![WebPage-HeaderPart](/resources/webpage-filtering-state-fl-new.png) <br/>
   To further filter based on shapes, we just the shape, in this example we are using "fireball" example.
 ![WebPage-HeaderPart](/resources/webpage-filtering-state-fl-fireball.png) <br/>
 
