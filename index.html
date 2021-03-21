@@ -13,15 +13,15 @@
     />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class = "navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index-html">UFO Sightings</a>
         </nav>
     </div>
 
-    <div class="jumbortron">
-        <h1>The Truth is Out There</h1>
+    <div class="jumbotron">
+        <h1 class="display-4">The Truth is Out There</h1>
     </div>
 
     <div class="container-fluid">
@@ -60,17 +60,33 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <form>
+                <form class="bg-dark">  
                     <p>Filter Section</p>
                 </form>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <label for="date">Enter Date</label>
-                        <input type="text" placeholder="1/10/2010" id="datetime"/>
+                <ul class="bg-dark list-group">
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5"for="date">Enter Date</label>
+                        <input class ="col-md-5"type="text" placeholder="1/10/2010" id="datetime"/>
                     </li>
-                    <li class="list-group-item">
-                        <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5" for="city">Enter a City</label>
+                        <input class ="col-md-5" type="text" placeholder="roswell" id="city"/>
                     </li>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5" for="state">Enter a State</label>
+                        <input class ="col-md-5" type="text" placeholder="ca" id="state"/>
+                    </li>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5" for="country">Enter a Country</label>
+                        <input class ="col-md-5" type="text" placeholder="us" id="country"/>
+                    </li>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5"  for="shape">Enter a Shape</label>
+                        <input class ="col-md-5" type="text" placeholder="circle" id="shape"/>
+                    </li>
+                    <!-- <li class="bg-dark list-group-item">  -->
+                        <!-- <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button> -->
+                    <!-- </li>   -->
                 </ul>
             </div>
             <div class="col-md-9">
@@ -84,7 +100,7 @@
                             <th>Shape</th>
                             <th>Duration</th>
                             <th>Comments</th>
-                            
+
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -93,6 +109,9 @@
         </div>
 
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 
 </body>
 </html>
