@@ -1,37 +1,117 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFO Finder</title>
+    <link 
+        rel = "stylesheet"
+        href ="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="bg-dark">
+    <div class="wrapper">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class="navbar-brand" href="index-html">UFO Sightings</a>
+        </nav>
+    </div>
 
-You can use the [editor on GitHub](https://github.com/v2krishna/UFOs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <div class="jumbotron">
+        <h1 class="display-4">The Truth is Out There</h1>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div class="container-fluid">
+        <div class ="row">
+            <div class="col-md-4">
+                <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
+            </div>
+               
+            <div class="col-md-8">
+                <p>
+                    Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. 
+                    Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, 
+                    we can supplement our sky-searching with data analysis.
+                    <br>
+                    <br>
+                     Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our sky-searching with data analysis.<br><br>"The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, which is a moment for ufologists around the world to connect, relax, and sample a range of UFO-themed snacks," said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings. "Citizen-scientists can be especially helpful in both cataloguing sightings—which is hugely helpful for us in our search for aliens—and in helping us celebrate the work that has already been done, such as this data visualization project, which will help us raise awareness of the ubiquity of sightings!"<br><br>Not everyone is ready to celebrate, however. Local CEO and vocal anti-alien activist V. Isualize reached out to our reporters to go on record as firmly opposed to any attempts to provide access to this data. "If there are aliens, they certainly would like to be left alone," she stated, before directing us to the Leave Aliens Alone (LAA) community engagement initiative she founded and funds.<br><br>So what do YOU think? Are we alone in the universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the data yourself, 
+                     and let us know what you see"The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, 
+                     which is a moment for ufologists around the world to connect, relax, and sample a range of UFO-themed snacks," said Dr. Ursula F. Olivier, 
+                     the world's preeminent expert on circular sightings. "Citizen-scientists can be especially helpful in both cataloguing sightings—which 
+                     is hugely helpful for us in our search for aliens—and in helping us celebrate the work that has already been done, such as this 
+                     data visualization project, which will help us raise awareness of the ubiquity of sightings!"
+                     <br>
+                     <br>
+                     Not everyone is ready to celebrate, however. Local CEO and vocal anti-alien activist V. Isualize reached out to our reporters to go on
+                     record as firmly opposed to any attempts to provide access to this data. "If there are aliens, they certainly would like to be left alone," 
+                     she stated, before directing us to the Leave Aliens Alone (LAA) community engagement initiative she founded and funds.
+                     <br><br>
+                     So what do YOU think? Are we alone in the universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the 
+                     data yourself, and let us know what you see
+                </p>
 
-### Markdown
+            </div>
+        </div>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <form class="bg-dark">  
+                    <p>Filter Section</p>
+                </form>
+                <ul class="bg-dark list-group">
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5"for="date">Enter Date</label>
+                        <input class ="col-md-5"type="text" placeholder="1/10/2010" id="datetime"/>
+                    </li>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5" for="city">Enter a City</label>
+                        <input class ="col-md-5" type="text" placeholder="roswell" id="city"/>
+                    </li>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5" for="state">Enter a State</label>
+                        <input class ="col-md-5" type="text" placeholder="ca" id="state"/>
+                    </li>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5" for="country">Enter a Country</label>
+                        <input class ="col-md-5" type="text" placeholder="us" id="country"/>
+                    </li>
+                    <li class="bg-dark list-group-item">
+                        <label class ="col-md-5"  for="shape">Enter a Shape</label>
+                        <input class ="col-md-5" type="text" placeholder="circle" id="shape"/>
+                    </li>
+                    <!-- <li class="bg-dark list-group-item">  -->
+                        <!-- <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button> -->
+                    <!-- </li>   -->
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>Country</th>
+                            <th>Shape</th>
+                            <th>Duration</th>
+                            <th>Comments</th>
 
-```markdown
-Syntax highlighted code block
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/v2krishna/UFOs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
