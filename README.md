@@ -22,7 +22,7 @@ The webpage consists three parts,
 ### Summary
   Created a dynamic webpage, looks clean, pretry and helps users to interact with the filter section to filter through the different sightings in the data.
 ### DrawBack:
-  1. If all the filter criteria is met then only the data table displays the data.
+  1. If we enter all the the filter criteria and if all are true/met then only the data table displays the data.
   2. Reset the filters is not without the full webpage.
 
 ### Recommendations.
